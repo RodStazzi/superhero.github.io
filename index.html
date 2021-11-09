@@ -1,0 +1,80 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+    <!-- favicon -->
+    <link rel="shortcut icon" href="assets/img/favicon.ico" type=image/x-icon>
+
+    <!-- bootstrap -->
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.1.1/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-F3w7mX95PdgyTmZZMECAngseQB83DfGTowi0iMjiWaeVhAn4FJkqJByhZMI3AhiU" crossorigin="anonymous">
+
+    <!-- canvas -->
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/canvasjs/1.7.0/canvasjs.min.js" integrity="sha512-FJ2OYvUIXUqCcPf1stu+oTBlhn54W0UisZB/TNrZaVMHHhYvLBV9jMbvJYtvDe5x/WVaoXZ6KB+Uqe5hT2vlyA==" crossorigin="anonymous" referrerpolicy="no-referrer"></script>
+    
+    <!-- ajax -->
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.6.0/jquery.min.js"></script>
+    
+    <title>Super-Hero</title>
+</head>
+<body>
+
+    <nav class="navbar navbar-dark bg-dark">
+        <div class="container-fluid">
+          <a class="navbar-brand" href="#">
+            <img src="assets/img/sh2.png" alt="" width="30" height="24" class="d-inline-block align-text-top">
+            Super Hero
+          </a>
+        </div>
+    </nav>
+
+    <header class="container">
+        <div class="text-center">
+            <img src="assets/img/sh2.png" alt="super hero image">
+        </div>
+    </header>
+
+    <section class="container">
+        <h2>Encuentra tu Super Hero</h2>
+        <form action="">
+            <div>
+                <div class="form-group">
+                  <label for="idHero">Ingresa el número del Super Heroe a buscar</label>
+                  <input type="text" class="form-control" name="" id="id" aria-describedby="helpId" placeholder="200">
+                </div>
+            <button type="submit" class="btn btn-primary mt-3">Buscar</button>
+        </form>
+    </section>
+
+    <section class="container text-center">
+        <div class="row">
+            <div id="resultado" class="col-sm mt-3"></div>
+
+            <div id="chartContainer" class="col-sm" style="height: 370px; width: 100%;"></div>
+        </div>
+    </section>
+
+<!--    <footer class="contaniner-fluid bg-pink text-center p-5 ">
+        <img src="assets/img/ro.sta.negro.sf.png" alt="" width="202" height="123"> -->
+        <footer class="contaniner-fluid bg-pink text-center p-5 "> 
+            <h3 class="display-3 font-weight-bold my-4 fs-5 text-center">by 
+                <img src="assets/img/ro.sta.negro.sf.png" alt="" width="100">© 2021</h3>    
+        
+        </footer>
+
+    <!-- bootstrap bundle -->
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.1.1/dist/js/bootstrap.bundle.min.js" integrity="sha384-/bQdsTh/da6pkI1MST/rWKFNjaCP5gBSY4sEBT38Q/9RBh9AH40zEOg7Hlq2THRZ" crossorigin="anonymous"></script>
+     
+    <!-- jquery -->
+     <script
+     src="https://code.jquery.com/jquery-3.6.0.min.js"
+     integrity="sha256-/xUj+3OJU5yExlq6GSYGSHk7tPXikynS7ogEvDej/m4="
+     crossorigin="anonymous">
+    </script>
+
+     <!-- JavaScript -->
+     <script src="assets/js/script.js"></script>
+</body>
+</html>
